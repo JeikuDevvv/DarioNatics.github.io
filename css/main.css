@@ -117,7 +117,7 @@ border: 1px solid rgba(9, 191, 242, 0.3);
 }
 .From{
     position:absolute;
-    transform:translateX(190px) translateY(250px);
+    transform:translateX(190px) translateY(150px);
 
     display: flex;
     align-self: flex-end;
