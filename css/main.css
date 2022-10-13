@@ -10,10 +10,30 @@
   margin: 0;
   padding: 0;
 }
+* {
+    scrollbar-width: none;
+    scrollbar-color: #19aabe #2e2e2e;
+  }
 
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2e2e2e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #19aabe;
+    border-radius: 2px;
+    border: 0px none #ffffff;
+  }
 .screen{
     height: 500vh;
     background-color: var(--bg-color);
+
+    
     
 }
 .page1{
