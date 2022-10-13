@@ -18,7 +18,9 @@ body {
 }
 
 
-
+a{
+	text-decoration: none;
+}
 
 .clear {
 	clear: both;
@@ -28,7 +30,7 @@ body {
 	font-weight: 500;
 	font-size: 30px;
 	color: #61dafb;
-	margin-left: 10px;
+	margin-left: 5px;
 
 }
 

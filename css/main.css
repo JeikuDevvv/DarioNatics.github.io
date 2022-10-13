@@ -13,6 +13,7 @@ body {
 }
 
 * {
+	scroll-behavior: smooth;
 	margin: 0;
 	padding: 0;
 }
@@ -116,12 +117,13 @@ border: 1px solid rgba(9, 191, 242, 0.3);
     color: var(--text-color);
 }
 .From{
-    position:absolute;
-    transform:translateX(190px) translateY(150px);
+    
+    float:right;
 
     display: flex;
     align-self: flex-end;
-    margin-right: 20%;
+    margin-bottom: 2%;
+	margin-right: 5%;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 30px;
