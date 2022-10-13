@@ -38,6 +38,9 @@ body {
 .screen {
 	height: 500vh;
 	background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .page1 {
 	height: 100vh;
@@ -67,62 +70,54 @@ h3 {
 	color: var(--main-color);
 	font-size: 40px;
 	margin: 0;
+    font-weight: 500;
 	margin-top: 20px;
 }
 span {
 	color: var(--main-color);
 }
-.picture {
-	min-width: 40%;
-	min-width: 500px;
-}
 
-.logo {
-	float: left;
-	margin-left: 86px;
-	margin-top: 10px;
-	width: 2.5%;
-}
 
-.clear {
-	clear: both;
-}
+.messageBox{
 
-.dario {
-	float: left;
-	font-weight: 700;
-	font-size: 30px;
-	color: #61dafb;
-	margin-left: 10px;
-	margin-top: 3px;
-	padding: 10px;
-	width: 2.5%;
-}
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-#nav {
-	background-color: #282c34; /*turns nav bar white*/
-	width: 100%;
-	position: fixed;
+    width: 60%;
+    min-height: 400px;
+    margin-top: 17%;
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(9, 191, 242, 0.33);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(9, 191, 242, 0.3);
 }
+.message{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    
+    color: var(--text-color);
+}
+.From{
+    position:absolute;
+    transform:translateX(190px) translateY(250px);
 
-.nav {
-	float: right;
-	list-style: none;
-	text-align: left;
-}
-.nav > li {
-	display: Inline-block;
-	padding: 19px 10px 20px 10px;
-}
-
-.nav > li a {
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.nav > li > a:hover {
-	color: #61dafb;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 20%;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    
+    color: var(--main-color);
 }
