@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap');
+
+
+:root{
+  --bg-color :#20232a;
+  --main-color:#61dafb;
+  --text-color: #ffffff;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.screen{
+    height: 100vh;
+    background-color: var(--bg-color);
+}
