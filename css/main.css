@@ -59,7 +59,6 @@ body {
 	overflow: hidden;
     margin-left: 20px;
 	z-index: 2;
-	transition: 600ms;
 }
 .text {
     margin-left: 5%;
@@ -137,3 +136,73 @@ border: 1px solid rgba(2, 180, 255, 0.3);
     
     color: var(--main-color);
 }
+
+@media only screen and (max-width: 600px) {
+	.screen {
+		height: 1000vh;
+		background-color: var(--bg-color);
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.page1 {
+		margin-top: 50px;
+		height: 30vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		overflow: hidden;
+		margin-left: 20px;
+		z-index: 2;
+	}
+	.text {
+		margin-left: 5%;
+		display: flex;
+		flex-direction: column;
+		width: 190px;
+	}
+
+	h1 {
+		font-family: "Inter", sans-serif;
+		color: var(--text-color);
+		font-size: 30px;
+		margin: 0;
+	}
+	h3 {
+		display: flex;
+		align-self: flex-end;
+		font-family: "Inter", sans-serif;
+		color: var(--main-color);
+		font-size: 20px;
+		margin: 0;
+		font-weight: 500;
+		margin-top: 20px;
+	}
+	.picture {
+		margin-left: 20px;
+		min-width: 20%;
+		min-width: 200px;
+		transition: 200ms;
+		transform: translateX(20);
+	}
+	.messageBox{
+		width: 350px;
+	}
+	.message{
+		margin: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		font-family: "Inter", sans-serif;
+		font-weight: 500;
+		font-size: 20px;
+		
+		color: var(--text-color);
+	}
+	.From{
+		font-size: 20px;
+	}
+  }

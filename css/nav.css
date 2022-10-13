@@ -77,3 +77,44 @@ a{
 	color: #61dafb;
 	
 }
+
+@media only screen and (max-width: 600px) {
+	#nav {
+		background-color: #282c34; /*turns nav bar white*/
+		width: 100%;
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 55px;
+		z-index: 3;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.087);
+		
+	}
+	.logo{
+		
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		gap: 20;
+		visibility: hidden;
+	
+	}
+	.nav{
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav > li {
+
+		display: Inline-block;
+		padding: 19px 10px 20px 10px;
+		
+	}
+	.nav > li a{
+		font-size: 12px;
+	}
+  }
