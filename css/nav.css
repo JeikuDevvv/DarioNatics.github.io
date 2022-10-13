@@ -40,6 +40,7 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	z-index: 2;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.087);
 	
 }
 .logo{
