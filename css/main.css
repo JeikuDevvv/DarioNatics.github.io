@@ -12,6 +12,44 @@
 }
 
 .screen{
+    height: 500vh;
+    background-color: var(--bg-color);
+    
+}
+.page1{
     height: 100vh;
     background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  font-size: 100px;
+  margin: 0;
+}
+h3{
+    display: flex;
+    align-self: flex-end;
+    font-family: 'Inter', sans-serif;
+  color: var(--main-color);
+  font-size: 40px;
+  margin: 0;
+  margin-top: 20px;
+}
+span{
+    color: var(--main-color);
+}
+.picture{
+    min-width: 40%;
+    min-width: 500px;
 }
