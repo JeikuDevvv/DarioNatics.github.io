@@ -41,7 +41,7 @@ a{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	z-index: 2;
+	z-index: 3;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.087);
 	
 }
