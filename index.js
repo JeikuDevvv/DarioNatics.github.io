@@ -1,3 +1,15 @@
+const sound = document.querySelector('.kal')
+const btnTreg = document.querySelector('.picture')
+
+
+btnTreg.addEventListener('click',()=>{
+	sound.play()
+
+	btnTreg.className = "picture kalibang"
+	setTimeout(() => {  btnTreg.className = "picture"; }, 3000);
+})
+
+
 let dots = [],
 	mouse = {
 		x: 0,
